@@ -1,38 +1,47 @@
-.App {
+body{
+  background-color: #1A1B20;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App {
+  text-align: center;
+  background-color: #1A1B20;
+  width: 17%;
+  margin: auto;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.imageProfile{
+  width: 100%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.buttonEmail{
+  color: black;
+  background-color: white;
+}
+a{
+  text-decoration: none;
+  padding:0.5em 1.5em;
+  border-radius:7px;
+}
+.buttonLinkedin{
+  color:white;
+  background-color: #4F92E2;
+}
+h1{
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+h3{
+  color:#B38D73;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h2,p{
+  color: white;
+}
+.footer{
+  background-color: black;
+}
+.iconsFooter{
+  width: 15%;
+  margin: 0px 2rem;
+}
+.buttonSection{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
 }
